@@ -64,7 +64,7 @@ function App() {
   const [quantity, setQuantity] = useState(1);
 
   const PRICE = 150000;
-  const total = PRICE * quantity;
+  // const total = PRICE * quantity;
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
